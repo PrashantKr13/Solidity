@@ -27,8 +27,8 @@ contract CodeToken is ERC20Interface {
         name = "CodeToken";
         decimals = 18;
         _totalSupply = 1_000_001_000_000_000_000_000_000;
-        balances[0xD0Abd692746b056c5ae4248859Df95a17780cfcE] = _totalSupply;
-        emit Transfer(address(0), 0xD0Abd692746b056c5ae4248859Df95a17780cfcE, _totalSupply);
+        balances[YOUR_WALLET_ADDRESS] = _totalSupply;
+        emit Transfer(address(0), YOUR_WALLET_ADDRESS, _totalSupply);
     }
 
     function totalSupply() public view returns (uint256) {
