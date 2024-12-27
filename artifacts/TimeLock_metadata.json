@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_releaseTime",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "lockedAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "release",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "releaseTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"TimeLock.sol": "TimeLock"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"TimeLock.sol": {
+			"keccak256": "0x48fcf6d86ec9891c4865d7ecf9ed4eeac8b094142447599b6fd4ad404e619d01",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://eead2afa7bcf0cbedb584f1210846fa13060423bc219ec45229fc31e27e14c81",
+				"dweb:/ipfs/QmcN14NoHcxbdPm9TMeAH7kvV1Pyz3BPcECuRYumd8VJ5K"
+			]
+		}
+	},
+	"version": 1
+}
